@@ -1,8 +1,6 @@
 # Weather Data Collector
 
-A simple Python script to retrieve weather data from the Open-Meteo API and store it in JSON Lines format.
-
-This project is an exercise for learning API consumption, data storage, and data manipulation.
+Collects weather data from the Open-Meteo API and stores it in JSONL files.
 
 ## Current Features
 - Retrieves current weather data from Open-Meteo.
@@ -18,15 +16,23 @@ Clone the repository:
 git clone <url>
 cd weather-app
 ```
+
 Create and activate a virtual environment:
 ```bash
 python -m venv .venv
 source .venv/bin/activate
 ```
+
 Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
+
+Create the configuration file:
+```bash
+cp config.example.json config.json
+```
+
 Run the script:
 ```bash
 python weather_app.py
