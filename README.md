@@ -13,7 +13,7 @@ Collects weather data from the Open-Meteo API and stores it in JSONL files.
 ## Installation and Usage
 Clone the repository:
 ```bash
-git clone <url>
+git clone "https://github.com/luc-ara/weather-app"
 cd weather-app
 ```
 
